@@ -1,0 +1,10 @@
+5 input n
+15 if n < 0 goto 45
+20 let f = 1
+25 if n < 2 goto 55
+30 let f = f * n
+35 let n = n - 1
+40 goto 25
+45 let f = -1
+50 print f
+55 end
